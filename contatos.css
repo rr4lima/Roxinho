@@ -133,3 +133,70 @@ p {
     padding: 10px 0;
     border-radius: 10px;
 }
+
+@media (max-width: 600px) {
+    header {
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    .fotoperfil {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .gatinho {
+      width: 250px;
+    }
+  
+    .redes-sociais {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .social-icon {
+      font-size: 24px;
+    }
+  
+    nav a {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header nav ul {
+      gap: 15px;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .fotoperfil {
+      width: 250px;
+      height
+  
