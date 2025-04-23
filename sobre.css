@@ -105,3 +105,13 @@ footer {
   .botao:hover {
     background-color: #8a6ec0;
   }
+
+  header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #a4cec0;
+    padding: 10px 0;
+    border-radius: 10px;
+}

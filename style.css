@@ -25,6 +25,16 @@ header {
     text-align: center;
 }
 
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #a4cec0;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
 header h1 {
     color: #F9F5FF;
 }
@@ -100,4 +110,6 @@ h2{
 p {
     text-align: center;
 }
+
+
 
